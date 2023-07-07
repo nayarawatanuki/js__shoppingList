@@ -1,0 +1,37 @@
+@import url(./toolkits/fonts/font-awesome.css);
+@import url(./toolkits/lib/bulma.css);
+@import url(./base/variables.css);
+
+html {
+    background: linear-gradient(177.52deg, #4574E3 2.11%, #154580 81.34%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-main), var(--font-title);
+}
+
+h2, footer {
+    font-family: var(--font-title);
+}
+
+button {
+    border: none;
+}
+
+.purchased-items {
+    text-decoration: line-through;
+}
+
+.border-list {
+    border-bottom: dotted 2px blue;
+}
+
+input, 
+input:disabled {
+    background: none;
+    border: none;
+    color: black;
+}
+

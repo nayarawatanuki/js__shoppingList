@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="assets/styles/style.css">
+
+        <title>Lista de compras</title>
+    </head>
+    <body class="has-text-grey hero">
+
+        <header></header>
+
+        <main class="column is-7 hero-body is-offset-one-fifth is-unselectable">
+
+            <form class="has-text-centered" id="form" action="">
+
+                <input type="text" class="input has-text-centered" name="" id="receiveItem" placeholder="Digite o que deseja adicionar" required>
+                <button for="salvar" type="submit" class="mt-2 has-text-weight-bold button is-small is-primary">Salvar item</button>
+            </form>
+
+            <section class="has-background-white mt-4">
+
+                <section>
+                    <h2 class="has-text-link has-text-weight-bold is-size-4 ml-2">Lista de compras</h2>
+                    <ul class="mx-2 border-list" id="ItemsList"></ul>
+                </section>
+
+                <section class="pb-2">
+                    <h2 class="has-text-link has-text-weight-bold is-size-4 ml-2">Comprados</h2>
+                    <ul class="mx-2 border-list" id="purchasedItems"></ul>
+                </section>
+            </section>
+        </main>
+
+        <footer class="has-text-centered has-text-white has-text-weight-bold">Desenvolvido por Alura.</footer>
+
+        <script type="module" src="app/app.js"></script>
+    </body>
+</html>

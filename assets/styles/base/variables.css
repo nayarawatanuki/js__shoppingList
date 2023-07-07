@@ -1,0 +1,7 @@
+@import url(../toolkits/fonts/Mansalva.css);
+@import url(../toolkits/fonts/Montserrat.css);
+
+:root {
+    --font-title: 'Mansalva', cursive;
+    --font-main: 'Montserrat', sans-serif;
+}
